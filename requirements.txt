@@ -4,3 +4,4 @@ python==3.7.5
 # rasa
 rasa==3.3.2
 rasa-sdk==3.3.0
+websockets==10.0
