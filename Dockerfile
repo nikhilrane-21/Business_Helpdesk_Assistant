@@ -1,5 +1,7 @@
 FROM python:3.7.7-stretch AS BASE
 
+RUN echo "deb http://archive.debian.org/debian stretch main contrib non-free" > /etc/apt/sources.list
+
 RUN apt-get update \
     && apt-get --assume-yes --no-install-recommends install \
         build-essential \
