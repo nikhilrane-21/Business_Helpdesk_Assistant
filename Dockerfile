@@ -16,7 +16,7 @@ WORKDIR /app
 # upgrade pip version
 RUN pip install --no-cache-dir --upgrade pip
 
-RUN pip install rasa==3.3.2
+RUN pip install rasa==3.3.0
 RUN pip install websockets==10.0
 
 ADD config.yml config.yml
